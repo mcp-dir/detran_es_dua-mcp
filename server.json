@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/detran_es_dua-mcp",
+  "title": "DETRAN ES: Emissão de Documento Único de Arrecadação (DUA)",
+  "description": "DETRAN ES: Issuance de Documento Único de Arrecadação (DUA), official-source lookup. Platform-hosted",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/detran_es_dua-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_detran_es_dua"
+    }
+  ]
+}
